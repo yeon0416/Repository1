@@ -1,0 +1,24 @@
+.alt-header {
+  display: flex;
+
+  padding: 45px 28px 25px 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+.alt-header__title {
+  font-size: 28px;
+  font-weight: 600;
+}
+.alt-header__search {
+  margin-left: 25px;
+}
+.alt-header__column {
+  width: 33%;
+}
+.alt-header__column:nth-child(2) {
+  text-align: center;
+}
+.alt-header__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
